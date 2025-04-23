@@ -3,6 +3,7 @@ public class palindrome {
         String str="naman";
         int a=0,b=str.length()-1;
         boolean ispalindrome=true;
+//        String target='n';
 
         while(a<b){
             if(str.charAt(a)!=str.charAt(b))
@@ -18,7 +19,6 @@ public class palindrome {
         else{
             System.out.println("Not a Palindrome");
         }
-
 
 
 
