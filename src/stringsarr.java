@@ -1,26 +1,26 @@
 public class stringsarr {
     public static void main(String[] args) {
+
         String[] str={"B","A","D","C"};
+        StringBuilder sb=new StringBuilder();
+
 
         for(int i=0;i<str.length;i++) {
-            for (int j = 0; j < str.length - 1 - i; j++) {
-                char str1 = str[j].charAt(0);
-                char str2 = str[j + 1].charAt(0);
-
-                if (str1 > str2) {
-                    String temp=str[j];
-                    str[j]=str[j+1];
-                    str[j+1]=temp;
-
-                }
+            char ch=str[i].charAt(0);
+            ch= (char) (ch+22);
+            sb.append(ch);
 
 
-            }
+
+
+
+
+
         }
 
         System.out.println("Sorted Array is :");
         for(int i=0;i<str.length;i++){
-            System.out.print(str[i]+" ");
+            System.out.print(sb.charAt(i)+" ");
 
         }
 
