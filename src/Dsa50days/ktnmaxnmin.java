@@ -1,3 +1,4 @@
+package Dsa50days;
 import java.util.Scanner;
 public class ktnmaxnmin {
 
@@ -24,7 +25,8 @@ public class ktnmaxnmin {
 
         int num=in.nextInt();
 
-        System.out.print("The "+ num + " Max and Min Elements are: "+ (arr[arr.length-num]) +" "+ arr[num-1]);
+        System.out.println("The " + num + " nd/rd/th Smallest Element is: " + arr[num - 1]);
+        System.out.println("The " + num + " nd/rd/th Largest Element is: " + arr[arr.length - num]);
 
 
 

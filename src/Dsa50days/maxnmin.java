@@ -1,3 +1,4 @@
+package Dsa50days;
 public class maxnmin {
 
     public static void main(String[] args) {

@@ -1,6 +1,7 @@
+package Dsa50days;
 public class arrreverse {
     public static void main(String[] args) {
-        int [] arr={2,5,7,32,9,4};
+        int [] arr={2,5,7,32,9,4,1};
         System.out.println("Original Array");
         for(int k=0;k<arr.length;k++){
             System.out.print(arr[k] +" " );
